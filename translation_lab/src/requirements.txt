@@ -1,0 +1,9 @@
+gunicorn
+gevent
+flask
+transformers
+torch
+torchvision
+torchaudio
+sentencepiece
+sacremoses
