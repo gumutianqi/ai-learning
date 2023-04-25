@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+    translation:
+      container_name: mq_transfer_en
+      image: mqlab-transfer_en:v1
+      restart: always
+      ports:
+        - 8080:8080
+      volumes:
+        - "ai_model:/model"
+      
+volumes:
+  ai_model:
+
+      

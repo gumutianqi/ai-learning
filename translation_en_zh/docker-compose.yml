@@ -1,8 +1,8 @@
 version: '3.3'
 services:
     translation:
-      container_name: mq_transfer
-      image: mqlab-transfer:latest
+      container_name: mq_transfer_zh
+      image: mqlab-transfer-zh:v1
       restart: always
       ports:
         - 8080:8080
